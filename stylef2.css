@@ -12,16 +12,53 @@ main {
     width: 428px;
     height: 926px;
     border-radius: 20px;
-    padding: 20px;
     font-family: "Itim",cursive;
     justify-content: center;
     align-items: center;
 }
 
+.title {
+    margin-top: 0;
+}
+
+.QR {
+    padding: 100px;
+}
+
 h1 {
     color: white;
+    text-align: center;
 }
 
 h3 {
     color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.buttom {
+    display: flex;
+}
+
+main .buttom a {
+    color: #333333;
+    text-decoration: none;
+    color: #333333;
+    background-color: #FDB623;
+    border-radius: 10px;
+    padding: 10px 70px;
+    font-family: "Itim",cursive;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main .buttom a:hover {
+    cursor: pointer;
+}
+
+main .buttom img{
+    height: 15px;
+    margin-left: 50px;
 }
