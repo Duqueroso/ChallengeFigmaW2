@@ -62,3 +62,7 @@ main .buttom img{
     height: 15px;
     margin-left: 50px;
 }
+
+@media (min-width: 450px) {
+    
+}
