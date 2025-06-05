@@ -90,3 +90,38 @@ main .form form input {
     cursor: pointer;
 }
 
+@media (min-width: 450px) {
+    
+    body{
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #666666;
+    }
+
+    main {
+        height: 80%;
+        width: 80%;
+        border-radius: 2rem;
+        border-top: 3px solid #FDB623;
+        border-bottom: 3px solid #FDB623;
+    }
+
+    .form form {
+        padding: 0rem 2rem;
+        margin: 0px;
+        border-bottom: 0px;
+    }
+
+    .form form img {
+        width: 3rem;
+        padding: 0px;
+    }
+
+    main .form form input {
+        margin: 5px 0px 1rem 0px;
+        padding: 5px;
+    }
+
+}
+

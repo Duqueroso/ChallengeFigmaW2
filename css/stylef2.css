@@ -44,7 +44,6 @@ h3 {
 main .buttom a {
     color: #333333;
     text-decoration: none;
-    color: #333333;
     background-color: #FDB623;
     border-radius: 10px;
     padding: 10px 70px;
@@ -65,4 +64,24 @@ main .buttom img{
 
 @media (min-width: 450px) {
     
+    body{
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #666666;
+    }
+
+    main {
+        height: 80%;
+        width: 80%;
+        border-radius: 2rem;
+        border-top: 3px solid #FDB623;
+        border-bottom: 3px solid #FDB623;
+    }
+
+    .QR {
+        padding: 1rem;
+    }
+
+
 }
